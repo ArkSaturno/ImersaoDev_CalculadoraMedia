@@ -1,36 +1,99 @@
 body {
-    font-family: 'Roboto Mono',monospace;
-    min-height: 400px;
-    background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
-    background-color: #06252A;
-    background-size: 80vh;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-  }
+  font-family: 'Roboto Mono',monospace;
+  background-image: linear-gradient(250deg,rgb(21, 147, 197),rgb(16, 29, 104)) 
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 80px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.alura-link {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.notas-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-  }
+  margin: 200px;
+}
+
+fieldset {
+  border: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+input {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  width: 350px;
+}
+
+legend {
+  text-align: center;
+  color: #fff;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 12px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(9, 182, 116);
+}
+
+.notas-input {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container-result {
+  display: flex;
+  justify-content: center;
+}
+
+#resultado {
+  color: white;
+  font-family: 'Roboto', monospace;
+  padding-top: 12px;
   
-  .page-title {
-    color:#ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color:#ffffff;
-    margin-top: 5px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
+  text-align: center;
+}
+.avisoderegra {
+  color: white;
+  text-align: center;
+}
